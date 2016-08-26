@@ -1,0 +1,22 @@
+{
+  "name": "menubar-calendar",
+  "version": "0.0.1",
+  "description": "OS X doesn't have a calendar like Ubuntu and it kind of drives me nuts",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armyofgnomes/menubar-calendar.git"
+  },
+  "author": "Robert Stern <rstern@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "menubar": "^5.1.0",
+    "polymer": "^0.5.0"
+  }
+}
